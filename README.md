@@ -41,6 +41,8 @@ This project simulates real-world banking operations with a clean UI, dynamic da
 
 ---
 
+## 📊 Project Architecture
+
 ```mermaid
 graph TD
     A[User (Browser)] --> B[React Frontend]
