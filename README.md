@@ -31,11 +31,11 @@ This project simulates real-world banking operations with a clean UI, dynamic da
 
 <p align="center">
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
-![Git](https://img.shields.io/badge/Git-VersionControl-red?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+<img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css" />
+<img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi" />
+<img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql" />
+<img src="https://img.shields.io/badge/Auth-JWT-black?style=for-the-badge&logo=jsonwebtokens" />
 
 </p>
 
@@ -43,22 +43,27 @@ This project simulates real-world banking operations with a clean UI, dynamic da
 
 ## 📊 Project Architecture
 
-User (Browser)
-   ↓
-React Frontend (UI built with React + Tailwind CSS)
-   ↓
-API Requests
-   ↓
-FastAPI Backend (Handles business logic & APIs)
-   ↓
-Authentication (JWT-based security)
-   ↓
-Core Modules:
-   - Accounts Management
-   - Transactions Tracking
-   - Budgeting System
-   - Bills & Rewards
-   ↓
-PostgreSQL Database (Stores all data)
-   ↓
-External APIs (Currency conversion, Banking integrations)
+<p align="center">
+
+🔵 **User (Browser)**  
+⬇️  
+⚛️ **React Frontend (UI + Tailwind CSS)**  
+⬇️  
+🔗 **API Requests**  
+⬇️  
+⚡ **FastAPI Backend**  
+⬇️  
+🔐 **JWT Authentication**  
+⬇️  
+🧠 **Business Logic Layer**  
+⬇️  
+🗄️ **PostgreSQL Database**  
+⬇️  
+🌍 **External APIs (Exchange Rate, Banking APIs)**  
+
+</p>
+
+---
+
+
+
