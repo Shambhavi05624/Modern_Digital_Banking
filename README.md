@@ -43,11 +43,22 @@ This project simulates real-world banking operations with a clean UI, dynamic da
 
 ## 📊 Project Architecture
 
-```mermaid
-graph TD
-    A[User (Browser)] --> B[React Frontend]
-    B -->|API Calls| C[FastAPI Backend]
-    C --> D[JWT Authentication]
-    C --> E[Business Logic]
-    E --> F[PostgreSQL Database]
-    C --> G[External APIs]
+User (Browser)
+   ↓
+React Frontend (UI built with React + Tailwind CSS)
+   ↓
+API Requests
+   ↓
+FastAPI Backend (Handles business logic & APIs)
+   ↓
+Authentication (JWT-based security)
+   ↓
+Core Modules:
+   - Accounts Management
+   - Transactions Tracking
+   - Budgeting System
+   - Bills & Rewards
+   ↓
+PostgreSQL Database (Stores all data)
+   ↓
+External APIs (Currency conversion, Banking integrations)
