@@ -41,12 +41,11 @@ This project simulates real-world banking operations with a clean UI, dynamic da
 
 ---
 
-## 📊 Project Architecture
-
 ```mermaid
 graph TD
-A[User Interface] --> B[HTML Structure]
-B --> C[CSS Styling]
-C --> D[JavaScript Logic]
-D --> E[Dynamic Data Handling]
-E --> F[User Interaction]
+    A[User (Browser)] --> B[React Frontend]
+    B -->|API Calls| C[FastAPI Backend]
+    C --> D[JWT Authentication]
+    C --> E[Business Logic]
+    E --> F[PostgreSQL Database]
+    C --> G[External APIs]
